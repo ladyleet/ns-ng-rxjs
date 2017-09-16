@@ -5,7 +5,6 @@
         hint="type yo shit"
         (textChange)="keywordsInputChange$.next(keywords.text)"
     ></TextField>
-    <Button text="Speak" (tap)="listenClick$.next()"></Button>
     <TextView editable="false" *ngIf="noResults$ | async" text="No results"></TextView>
     <ListView [items]="keyword$ | async" class="list-group">
         <ng-template let-item="item">

@@ -11,6 +11,7 @@
     "nativescript-angular": true,
     "nativescript-intl": true,
     "reflect-metadata": true,
+    "nativescript-speech-recognition": true,
     "nativescript-theme-core": true,
     "rxjs": true,
     "symbol-observable": true,

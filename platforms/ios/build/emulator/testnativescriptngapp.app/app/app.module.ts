@@ -6,6 +6,15 @@ import { AppComponent } from "./app.component";
 import { ItemService } from "./item/item.service";
 import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
+import { PunComponent } from "./pun/pun.component";
+import { PunService } from "./pun/pun.service";
+import { SpeechService } from "./services/speech.service";
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/switchMap';
+import 'rxjs/add/operator/share';
+import 'rxjs/add/observable/merge';
+import 'rxjs/add/observable/of';
+
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -24,10 +33,12 @@ import { ItemDetailComponent } from "./item/item-detail.component";
     declarations: [
         AppComponent,
         ItemsComponent,
-        ItemDetailComponent
+        ItemDetailComponent,
+        PunComponent
     ],
     providers: [
-        ItemService
+        ItemService,
+        PunService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

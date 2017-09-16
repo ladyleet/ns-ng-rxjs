@@ -15,7 +15,6 @@ import 'rxjs/add/operator/share';
 import 'rxjs/add/observable/merge';
 import 'rxjs/add/observable/of';
 
-
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
@@ -38,7 +37,8 @@ import 'rxjs/add/observable/of';
     ],
     providers: [
         ItemService,
-        PunService
+        PunService,
+        SpeechService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

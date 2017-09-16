@@ -90,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PD6o+LDEzwb6ezDPcjAbsLxtTHk=
+		ly7QQbGZEPB9bIn5xtx/QhigYgQ=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>app/app.component.html</key>
 		<data>
-		YRMl+Squh0Ew00p2Icu9PqvUiqw=
+		JWjxnJci7w5uthTWgDmDLfoi7KI=
 		</data>
 		<key>app/app.component.js</key>
 		<data>
@@ -186,23 +186,23 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		3e9x8MIuhUJDtAMUslhBFFaAC7M=
+		48bHE7L6r+fD5/i3KsY/r4MG4Fw=
 		</data>
 		<key>app/app.module.js</key>
 		<data>
-		8TegkvJYDMAU6YnhB1QQ5I0DpzQ=
+		kaLiJKoPXh0G4bY4dx1gdFN09Is=
 		</data>
 		<key>app/app.module.ts</key>
 		<data>
-		bAa7wccdbGe0tH3Fp6MittP/DbU=
+		WRFUMMn/Azg7iUOPCjnW2NXhtjc=
 		</data>
 		<key>app/app.routing.js</key>
 		<data>
-		y7gdj5PHOXAF6qq8u1clqixDeHI=
+		e4vGr8mF5rAREeHgpU2hXT9V7kM=
 		</data>
 		<key>app/app.routing.ts</key>
 		<data>
-		1djM2r+liuFyYnS+5dZNwlU/c3E=
+		put3JXojvnO3/JQ2ARVmz/HVbhI=
 		</data>
 		<key>app/item/item-detail.component.html</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>app/item/items.component.html</key>
 		<data>
-		BNgj4vZn8aQgDmr7pLfK4B17ed4=
+		VsVW7QOjX7mtoii9XFDJlFSOeY0=
 		</data>
 		<key>app/item/items.component.js</key>
 		<data>
@@ -259,6 +259,34 @@
 		<key>app/package.json</key>
 		<data>
 		wSN8EutJtmxB1A9YYnoW4czcl5Y=
+		</data>
+		<key>app/pun/pun.component.html</key>
+		<data>
+		lE3t6E0TSZsup74e7qfLgRAoQTA=
+		</data>
+		<key>app/pun/pun.component.js</key>
+		<data>
+		MZhBhH5iB4z1cnADCdSjVLS939g=
+		</data>
+		<key>app/pun/pun.component.ts</key>
+		<data>
+		YM1Lo1geJnLinRM+8qxhfXG6/AI=
+		</data>
+		<key>app/pun/pun.service.js</key>
+		<data>
+		lIaaTfksXMyn6VaReE0/phqIM4Y=
+		</data>
+		<key>app/pun/pun.service.ts</key>
+		<data>
+		T6lYTqmIekjt/kdBNX4pPD7xUVA=
+		</data>
+		<key>app/services/speech.service.js</key>
+		<data>
+		mll/3oNMBfchUjtKQIgK8E9WrZA=
+		</data>
+		<key>app/services/speech.service.ts</key>
+		<data>
+		3LaSxF9++0cmmctLJMqv4uXOtj8=
 		</data>
 		<key>app/tns_modules/@angular/animations/@angular/animations.es5.js</key>
 		<data>
@@ -3951,6 +3979,46 @@
 		<key>app/tns_modules/nativescript-intl/package.json</key>
 		<data>
 		NAB4XGinkCvae91OoBAgvBaHcp0=
+		</data>
+		<key>app/tns_modules/nativescript-speech-recognition/.npmignore</key>
+		<data>
+		GNvQ58tngMh2tXn2Fotaw8hyyq0=
+		</data>
+		<key>app/tns_modules/nativescript-speech-recognition/CHANGELOG.md</key>
+		<data>
+		hJCBfO5CCVSgDWwfNZy8CCb0CJQ=
+		</data>
+		<key>app/tns_modules/nativescript-speech-recognition/LICENSE</key>
+		<data>
+		WK9JCA3BoojBbDTAPMeV7GFEqnI=
+		</data>
+		<key>app/tns_modules/nativescript-speech-recognition/README.md</key>
+		<data>
+		gJSw+uF3OcQbKAlvFUWXE4aUd5o=
+		</data>
+		<key>app/tns_modules/nativescript-speech-recognition/index.d.ts</key>
+		<data>
+		AMpPxeeMPLm+zgzcQKLOvXSDZqk=
+		</data>
+		<key>app/tns_modules/nativescript-speech-recognition/package.json</key>
+		<data>
+		BoHGEvSIypoBHI7d4uNkG5jy9sk=
+		</data>
+		<key>app/tns_modules/nativescript-speech-recognition/speech-recognition.common.d.ts</key>
+		<data>
+		on+Cb/wbvzQfoH5+ASaidh+TjTE=
+		</data>
+		<key>app/tns_modules/nativescript-speech-recognition/speech-recognition.common.js</key>
+		<data>
+		ZGLuDpYKxC674pJyJ3saRgFDoUo=
+		</data>
+		<key>app/tns_modules/nativescript-speech-recognition/speech-recognition.d.ts</key>
+		<data>
+		CBUpUh4oPZgtBgBzF9gpE187mxU=
+		</data>
+		<key>app/tns_modules/nativescript-speech-recognition/speech-recognition.js</key>
+		<data>
+		hf53eHt8f+UMwUc23MYGB6ntpME=
 		</data>
 		<key>app/tns_modules/nativescript-theme-core/css/aqua.css</key>
 		<data>
@@ -12076,11 +12144,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YRMl+Squh0Ew00p2Icu9PqvUiqw=
+			JWjxnJci7w5uthTWgDmDLfoi7KI=
 			</data>
 			<key>hash2</key>
 			<data>
-			bq7gFdAKlsZQnfdfntUp35RS6bClvRdJrXTjTkq01zQ=
+			goZVxagquvQl7NSKvYLwIbGNjnjF/DPqvoYjuZxaQa8=
 			</data>
 		</dict>
 		<key>app/app.component.js</key>
@@ -12109,55 +12177,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3e9x8MIuhUJDtAMUslhBFFaAC7M=
+			48bHE7L6r+fD5/i3KsY/r4MG4Fw=
 			</data>
 			<key>hash2</key>
 			<data>
-			W0XsmPXEV1H6jxFipl57Hi2xdwJ26Vb1z9pyiLFhb68=
+			v/aY2oHz+SX9uXVBmJoSf558luLFWdyNKL10Umq1d8Y=
 			</data>
 		</dict>
 		<key>app/app.module.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8TegkvJYDMAU6YnhB1QQ5I0DpzQ=
+			kaLiJKoPXh0G4bY4dx1gdFN09Is=
 			</data>
 			<key>hash2</key>
 			<data>
-			l31wBzwK9TxDJNkGRgyhLg3UgjRdNY/dgeRpUKgav1c=
+			7IsjqpOJStjAO23aCljXWxTuhIVBPysVV1I8H/P6zHc=
 			</data>
 		</dict>
 		<key>app/app.module.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bAa7wccdbGe0tH3Fp6MittP/DbU=
+			WRFUMMn/Azg7iUOPCjnW2NXhtjc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9kWlJoIbdZJ9XcjbMDIv7kkn98cspMQfuNUcfhVsOIs=
+			r3rIge+iJ69a1oZp73wwsOes9rJVIWXADxi862OVpCQ=
 			</data>
 		</dict>
 		<key>app/app.routing.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y7gdj5PHOXAF6qq8u1clqixDeHI=
+			e4vGr8mF5rAREeHgpU2hXT9V7kM=
 			</data>
 			<key>hash2</key>
 			<data>
-			IlxDdopmVoyORiJxwKsWRUvxUPAD7bv3aDwrqpph9U8=
+			r5DKyLrwopcY7bFAAAcik5ZHHVl590vdge4rWF3wR/8=
 			</data>
 		</dict>
 		<key>app/app.routing.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1djM2r+liuFyYnS+5dZNwlU/c3E=
+			put3JXojvnO3/JQ2ARVmz/HVbhI=
 			</data>
 			<key>hash2</key>
 			<data>
-			7uznYpTxC0/o0e34QQ+I7BW2KDFLEf1TrhdaL5VQE60=
+			DxqfIpEiopHeJFePFxNXl+TOCYbrXI6ukVdaaumqwV8=
 			</data>
 		</dict>
 		<key>app/item/item-detail.component.html</key>
@@ -12241,11 +12309,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BNgj4vZn8aQgDmr7pLfK4B17ed4=
+			VsVW7QOjX7mtoii9XFDJlFSOeY0=
 			</data>
 			<key>hash2</key>
 			<data>
-			dEkHH1CK+B1acOVImfNtJDav/suDE++lIWGC1jEeHRc=
+			j0XJWO7wSyiBXgtSiIlJu4ai4bK5Emg/RpOoRk8dS6c=
 			</data>
 		</dict>
 		<key>app/item/items.component.js</key>
@@ -12312,6 +12380,83 @@
 			<key>hash2</key>
 			<data>
 			0w1Kzb3/yA+ZrzjRbAG6iMdgtm2IdDebINUwJ8C6qLM=
+			</data>
+		</dict>
+		<key>app/pun/pun.component.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lE3t6E0TSZsup74e7qfLgRAoQTA=
+			</data>
+			<key>hash2</key>
+			<data>
+			hrWZKw3pE0Qe8FHPpmojVzNjW8sCQzvaTlnilAZBGaA=
+			</data>
+		</dict>
+		<key>app/pun/pun.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MZhBhH5iB4z1cnADCdSjVLS939g=
+			</data>
+			<key>hash2</key>
+			<data>
+			Jks+TTwN7cquWblulGVXvly9BFfnmohtZjzBAKCH2ZQ=
+			</data>
+		</dict>
+		<key>app/pun/pun.component.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YM1Lo1geJnLinRM+8qxhfXG6/AI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Gwe/Z+HVClFvbsjbhI7oldc9Pl9EBzfv437HKNclenU=
+			</data>
+		</dict>
+		<key>app/pun/pun.service.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lIaaTfksXMyn6VaReE0/phqIM4Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			vTtGg/cyBRWWNZl3C4EcCFM/GEQX3CQH/YgMvlNqHl0=
+			</data>
+		</dict>
+		<key>app/pun/pun.service.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			T6lYTqmIekjt/kdBNX4pPD7xUVA=
+			</data>
+			<key>hash2</key>
+			<data>
+			bb5oWmGes6PgLYC/9xdWu3I1Y80ULkTGsiYwe67r3OQ=
+			</data>
+		</dict>
+		<key>app/services/speech.service.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mll/3oNMBfchUjtKQIgK8E9WrZA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Z3F7erCoNSH9/z+4oxEoL0sNoO8q9FEEXlCFA+OiTrc=
+			</data>
+		</dict>
+		<key>app/services/speech.service.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3LaSxF9++0cmmctLJMqv4uXOtj8=
+			</data>
+			<key>hash2</key>
+			<data>
+			m/gwXnsZWtNWBKgPSM3kDAMH59PFwL3Htb9NxPeJQsI=
 			</data>
 		</dict>
 		<key>app/tns_modules/@angular/animations/@angular/animations.es5.js</key>
@@ -22465,6 +22610,116 @@
 			<key>hash2</key>
 			<data>
 			AtBNCqkViPmLThmuJ49x02h4z/kp0PUMPB0GBFi02fU=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-speech-recognition/.npmignore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GNvQ58tngMh2tXn2Fotaw8hyyq0=
+			</data>
+			<key>hash2</key>
+			<data>
+			QUDY4zWIyN6EcUmd5XUVUe6ypBahyqJ2hhbWJvhYvio=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-speech-recognition/CHANGELOG.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hJCBfO5CCVSgDWwfNZy8CCb0CJQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			VVla7kce7MIDS0SNqZNob5L+p0AAgvoLY8Ny40/RO0o=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-speech-recognition/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WK9JCA3BoojBbDTAPMeV7GFEqnI=
+			</data>
+			<key>hash2</key>
+			<data>
+			AVZPZP0jgPxJd9RaH915Az9Kswh6GvYaFnccllqzTiM=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-speech-recognition/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gJSw+uF3OcQbKAlvFUWXE4aUd5o=
+			</data>
+			<key>hash2</key>
+			<data>
+			1rMEu/AXWZbZcPK4zgG54CQqVjbYglXfScYiettVdUo=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-speech-recognition/index.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AMpPxeeMPLm+zgzcQKLOvXSDZqk=
+			</data>
+			<key>hash2</key>
+			<data>
+			8xW52vAjiY+q9Vqd5hovS5QYxThCoyVs+Dk1k4lwflg=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-speech-recognition/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BoHGEvSIypoBHI7d4uNkG5jy9sk=
+			</data>
+			<key>hash2</key>
+			<data>
+			qbVyEyW+1b5b9wyj1FossPHbYwsPcqueGTzEl6o/6aA=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-speech-recognition/speech-recognition.common.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			on+Cb/wbvzQfoH5+ASaidh+TjTE=
+			</data>
+			<key>hash2</key>
+			<data>
+			f69+RI+pS1hDuOiCkz793cfu9SVi3dOgYPdepddZrd0=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-speech-recognition/speech-recognition.common.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZGLuDpYKxC674pJyJ3saRgFDoUo=
+			</data>
+			<key>hash2</key>
+			<data>
+			xPzMZ+yheLDLK8alwO1Ywc5lWeMH53H4o7ZlC0R2dAQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-speech-recognition/speech-recognition.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CBUpUh4oPZgtBgBzF9gpE187mxU=
+			</data>
+			<key>hash2</key>
+			<data>
+			1VZOx5GQnpS4VEVG4dITTJsDZdrY+GG5Hv8wtjYXCho=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-speech-recognition/speech-recognition.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hf53eHt8f+UMwUc23MYGB6ntpME=
+			</data>
+			<key>hash2</key>
+			<data>
+			ihhp4uZue/3j2MzlGMHMu/wl+cHlzyCqsTemkFiBnu8=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-theme-core/css/aqua.css</key>
