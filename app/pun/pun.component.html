@@ -1,0 +1,22 @@
+<StackLayout>
+    <TextField
+        #keywords
+        class="center-align"
+        hint="type yo shit"
+        (textChange)="keywordsInputChange$.next(keywords.text)"
+    ></TextField>
+    <Button text="Speak" (tap)="listenClick$.next()"></Button>
+    <TextView editable="false" *ngIf="noResults$ | async" text="No results"></TextView>
+    <ListView [items]="keyword$ | async" class="list-group">
+        <ng-template let-item="item">
+            <Label [text]="item"
+                class="list-group-item"></Label>
+        </ng-template>
+    </ListView>
+    <ListView [items]="pun$ | async" class="list-group">
+        <ng-template let-item="item">
+            <Label [text]="item.pun + ' ' + item.answer"
+                class="list-group-item"></Label>
+        </ng-template>
+    </ListView>
+</StackLayout>

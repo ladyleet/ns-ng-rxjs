@@ -1,0 +1,9 @@
+@import '~/nativescript-theme-core/css/sky.css';
+
+.margin-all-50 {
+  margin: 50px;
+}
+
+.center-align {
+  text-align: center;
+}
