@@ -14,7 +14,7 @@ export class SpeechService {
       speech.startListening(
         {
           // optional, uses the device locale by default
-          locale: "en-US",
+          locale: "en-US",    
           // set to true to get results back continuously
           returnPartialResults: true,
           // this callback will be invoked repeatedly during recognition
@@ -27,28 +27,6 @@ export class SpeechService {
         (started: boolean) => { console.log(`started listening YOO`) },
         (errorMessage: string) => { console.log(`shits weak Error: ${errorMessage}`); }
       );
-      /*const speech = new SpeechRecognition();
-
-      const resultHandler = (e: any) => {
-        console.log(e);
-        const results: string[] = this.cleanSpeechResults(e.results);
-        observer.next(results);
-        observer.complete();
-      };
-
-      const errorHandler = (err) => {
-        observer.error(err);
-      };
-
-      speech.addEventListener('result', resultHandler);
-      speech.addEventListener('error', errorHandler);
-      speech.start();
-
-      return () => {
-        speech.removeEventListener('result', resultHandler);
-        speech.removeEventListener('error', errorHandler);
-        speech.abort();
-      };*/
     });
   }
 

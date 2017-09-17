@@ -3,9 +3,6 @@ import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
 
-import { ItemService } from "./item/item.service";
-import { ItemsComponent } from "./item/items.component";
-import { ItemDetailComponent } from "./item/item-detail.component";
 import { PunComponent } from "./pun/pun.component";
 import { PunService } from "./pun/pun.service";
 import { SpeechService } from "./services/speech.service";
@@ -31,12 +28,9 @@ import 'rxjs/add/observable/of';
     ],
     declarations: [
         AppComponent,
-        ItemsComponent,
-        ItemDetailComponent,
         PunComponent
     ],
     providers: [
-        ItemService,
         PunService,
         SpeechService
     ],

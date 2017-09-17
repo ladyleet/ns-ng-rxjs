@@ -1,21 +1,29 @@
 <StackLayout>
-    <TextField
-        #keywords
-        class="center-align"
-        hint="type yo shit"
-        (textChange)="keywordsInputChange$.next(keywords.text)"
-    ></TextField>
-    <TextView editable="false" *ngIf="noResults$ | async" text="No results"></TextView>
-    <ListView [items]="keyword$ | async" class="list-group">
-        <ng-template let-item="item">
-            <Label [text]="item"
-                class="list-group-item"></Label>
-        </ng-template>
-    </ListView>
-    <ListView [items]="pun$ | async" class="list-group">
-        <ng-template let-item="item">
-            <Label [text]="item.pun + ' ' + item.answer"
-                class="list-group-item"></Label>
-        </ng-template>
-    </ListView>
+    <SearchBar #keywords id="searchBar" hint="Search" text="" (submit)="keywordsInputChange$.next(keywords.text)" class="search-bar"></SearchBar>  <Label *ngIf="keywords.text" text="Keywords" textWrap="true"></Label>
+    
+    <Placeholder *ngIf="(noResults$ | async); then noresults else results"></Placeholder>
+
+    <ng-template #noresults>
+        <Label text="No results" class="h1 center-align"></Label>
+    </ng-template>
+    <ng-template #results>
+        <StackLayout>
+            <ListView [items]="keyword$ | async" class="list-group">
+                <ng-template let-keyword="item">
+                    <Label [text]="keyword"
+                    class="list-group-item text-blue"></Label>  
+                </ng-template>  
+            </ListView>    
+            <Label *ngIf="keywords.text" text="Puns" textWrap="true"></Label>
+            <ListView [items]="pun$ | async" class="list-group">
+                <ng-template let-pun="item">
+                    <Label [text]="pun.pun + ' ' + pun.answer"
+                        class="list-group-item"></Label>
+                </ng-template>
+            </ListView>
+        </StackLayout>
+    </ng-template>
 </StackLayout>
+    
+    
+    
